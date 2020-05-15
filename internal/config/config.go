@@ -1,6 +1,6 @@
-package ll1
+package config
 
-type config struct {
+type Config struct {
 	Terminals    []string
 	Nonterminals []string
 	Start        string
